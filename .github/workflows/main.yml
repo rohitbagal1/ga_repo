@@ -1,0 +1,10 @@
+on:[push]
+jobs:
+  disply_files:
+  name: run file
+  run-on: ubantu latest
+  steps:
+    -name: display output
+    run:|
+      echo "hello world"
+    shell: bash
