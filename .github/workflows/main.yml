@@ -1,9 +1,9 @@
 on: [push]
 jobs:
   disply_files:
-  name: run file
-  runs-on: ubuntu-latest
-  steps:
+    name: run file
+    runs-on: ubuntu-latest
+    steps:
     - name: display output
       run: |
         echo "hello world"
