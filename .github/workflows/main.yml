@@ -1,10 +1,10 @@
-on:[push]
+on: [push]
 jobs:
   disply_files:
   name: run file
-  run-on: ubantu latest
+  runs-on: ubuntu-latest
   steps:
-    -name: display output
-    run:|
-      echo "hello world"
-    shell: bash
+    - name: display output
+      run: |
+        echo "hello world"
+      shell: bash
